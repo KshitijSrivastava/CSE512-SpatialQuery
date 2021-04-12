@@ -110,3 +110,5 @@ If you are using the Scala template
 3. Find the packaged jar in "./target/scala-2.11/CSE512-Project-Phase2-Template-assembly-0.1.0.jar"
 4. Submit the jar to Spark using Spark command "./bin/spark-submit"
 5. **You must revert Step 3 and 4 in "How to debug your code in IDE" and recompile your code before use spark-submit!!!**
+
+spark-submit --class cse512.SpatialQuery --master local[8] ~/Desktop/Academics/Data_Processing_At_Scale/Project/CSE512-Project-Phase2-Template/target/scala-2.11/cse512-project-phase2-template_2.11-0.1.0.jar 100
